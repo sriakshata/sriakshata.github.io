@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Monoton');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Germania+One|Monoton');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Germania+One|Monoton|Roboto:500');
+html{
+  scroll-behavior: smooth;
+}
+.navbar-brand{
+  font-family: 'Monoton', cursive;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: bold;
+
+}
+
+
+
+.division1{
+  background-color:#74D389;
+  height: 1000px;
+}
+.division1-h{
+  text-align: center;
+    position: relative;
+
+  padding: 23px;
+    font-family: 'Courgette', cursive;
+}
+.division1-p{
+  overflow: hidden;
+  left: 45px;
+  top: 210px;
+  position: relative;
+  font-size: 30px;
+  font
+}
+.list-group{
+  width: 38%;
+  bottom: 3px;
+  position: relative;
+  left: 59%;
+
+}
+#button-wala{
+  position: relative;
+  text-align: center;
+  left: 40%;
+  margin-top: 30px;;
+}
+.division2{
+  background-color: #6699CC;
+
+font-family: 'Roboto', sans-serif;
+  height: 600px;
+  padding: 23px;
+}
+.division2-h{
+  text-align: center;
+}
+
+.div2img{
+  left: 40px;
+  margin: 4px;
+}
+.div2c{
+  position: relative;
+  left: 45%;
+  bottom: 400px;
+}
+.collapsible {
+  background-color: #678;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.content2, .content3,.content4{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.division3{
+  background-color:#2BA84A;
+  height: 650px;
+}
+
+.div3c{
+  position: relative;
+  left: 45%;
+  bottom: 400px;
+}
+.division4{
+  background-color: #4ECDC4;
+  height: 650px;
+  padding: 23px;
+}
+.division5{
+  background-color: #;
+  height: 650px;
+  padding: 23px;
+}
+.div4c,.div5c{
+  position: relative;
+  left: 45%;
+  bottom: 400px;
+}
+.fa{
+   padding: 20px;
+}
